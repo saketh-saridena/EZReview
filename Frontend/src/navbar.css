@@ -1,0 +1,55 @@
+/* navbar.css */
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+nav .logo{
+  color: azure;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: #5d5d5d;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+
+  color: #ddd;
+}
+
+nav ul li a.active, nav ul li a:active {
+  color: #5383d3;
+}
+
+/* Special button-like link */
+.special-link {
+  background-color:#5383d3;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 20px; /* Adjust as needed to match the shape in the image */
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.special-link:hover {
+  background-color: #5383d3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,78 @@
+/* General styling */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px   ; 
+ 
+  }
+  
+  .form {
+    width: 90%;
+    max-width: 500px; /* Maximum form width */
+    padding: 25px 25px 25px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form fields */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 95.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Comfortable font size for reading and entry */
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+ 
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5383d3; /* Matching the focus border color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Error message and success message styling */
+  #errormessage,
+  #sendmessage {
+    text-align: center;
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  #errormessage {
+    background-color: #f44336; /* Red for errors */
+  }
+  
+  #sendmessage {
+    background-color: #4CAF50; /* Green for success */
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
